@@ -1,0 +1,1 @@
+java -cp C:\Users\Nakul-PC\Desktop\Java_Practices\JavaPrcticesAll\lib\*;C:\Users\Nakul-PC\Desktop\Java_Practices\JavaPrcticesAll\bin org.testng.TestNG testng.xml
