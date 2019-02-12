@@ -21,7 +21,7 @@ public class Parent {
 	public void openBrowser(WebDriver driver, DesiredCapabilities cap) throws Exception
 	{
 	cap=DesiredCapabilities.firefox();
-	cap.setPlatform(Platform.WINDOWS);
+	cap.setPlatform(Platform.WIN10);
 	URL url= new URL("http://192.168.147.1:4444/wd/hub");
 	driver=new RemoteWebDriver(url, cap);
 	driver.get("http://www.amazon.com");

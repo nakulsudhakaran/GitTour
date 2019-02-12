@@ -26,18 +26,18 @@ public class Child extends Parent {
 		
 		
 		Child c= new Child();
-		//Parent p=new Parent();
+		Parent p=new Parent();
 		//c.msg();      //1
-		//p.msg();      //2
+		p.msg();      //2
 		
-		//Parent P1=new Child();
+		
 		//P1.msg();		//3
 		//P1.sleep();	//4
 		//c.sleep();		//5
 		//Child C1=(Child)P1;
 		//C1.sleep();		//6
-		//c.wake();  		//7
 		
+		//calling the parent
 		c.openBrowser(driver,cap);
 		
 			}
